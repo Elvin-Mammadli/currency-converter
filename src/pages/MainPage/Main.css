@@ -1,0 +1,44 @@
+.container {
+  min-width: 350px;
+  min-height: 400px;
+  background-color: #cbe5ff;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  border-radius: 2%;
+  padding: 50px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading h1 {
+  text-align: center;
+  font-family: "Roboto";
+  margin-bottom: 10px;
+}
+
+table {
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+th, td {
+  background-color: #6fbfbf;
+  padding: 5px;
+  text-align: center;
+}
+
+td {
+  width: 50%;
+}
+
+p {
+  text-align: center;
+}
